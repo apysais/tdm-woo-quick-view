@@ -463,7 +463,7 @@
       				    mru_qv_add_class(_this);
        					//create empty LI
        					create_after_li(_this, '');
-       					$(_qv_sel_placeholder).height(_this_height).css("float", _this_float).css("clear", _this_clear );
+       					//$(_qv_sel_placeholder).height(_this_height).css("float", _this_float).css("clear", _this_clear );
      						//remove the loading status
      						_this.parent().find(_li_sel_container).remove();
                  $('.loading').remove();

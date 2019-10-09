@@ -37,7 +37,7 @@
      z-index: 20;
  }
  .quick-view button.close {
-     float: none;
+     /*float: none;
      position: absolute;
      right: 0px;
      top: 0px;
@@ -50,7 +50,7 @@
      line-height: 18px !important;
      opacity: 1;
      z-index: 20;
-     border: 3px solid white !important;
+     border: 3px solid white !important;*/
  }
  .quick-view form.cart {
      margin-top: 10px;
@@ -59,7 +59,7 @@
      cursor: zoom-in;
  }
  @media screen and (max-width: 768px) {
-     .touchevents .woocommerce ul.products li .quick-view-container .more-details-container {
+     .touchevents ul.products li .quick-view-container .more-details-container {
          position: absolute;
          top: 8px;
          right: 8px;
@@ -82,11 +82,11 @@
      font-weight: 600;
  }
 
- .no-touchevents .woocommerce ul.products li.product .quick-view-container .more-details-container a {
+ .no-touchevents ul.products li.product .quick-view-container .more-details-container a {
      padding: 0px;
      display: inline-block;
  }
- .touchevents .woocommerce ul.products li.product .quick-view-container .more-details-container a,
+ .touchevents ul.products li.product .quick-view-container .more-details-container a,
  .woocommerce ul.products li.quick-view-open .quick-view-container .more-details-container a {
      padding: 4px 8px;
      display: inline-block;
@@ -311,10 +311,10 @@
          max-width: calc( 50% - 12px );
      }
  }
- .no-touchevents .woocommerce ul.products li.product .quick-view-link-container,
- .no-touchevents .woocommerce ul.products li.product .more-details-container a {
-     font-family: 'Teko', sans-serif;
-     font-size: 22px;
+ .no-touchevents ul.products li.product .quick-view-link-container,
+ .no-touchevents ul.products li.product .more-details-container a {
+     /*font-family: 'Teko', sans-serif;
+     font-size: 22px;*/
      line-height: 40px;
      position: absolute;
      left: 20%;
@@ -323,18 +323,18 @@
      background: #ed1423;
      color: #fff;
      border-radius: 3px;
-     width: 60%;
+     /*width: 60%;*/
      border: 2px solid #fff !important;
      box-shadow: 0 0 6px rgba(0,0,0,0.4);
      cursor: pointer;
  }
- .no-touchevents .woocommerce ul.products li.product .more-details-container a {
+ .no-touchevents ul.products li.product .more-details-container a {
      display: block;
      top: 110px;
  }
 
  .woocommerce ul.products li.product .quick-view-link-container,
- .no-touchevents .woocommerce ul.products li.product .more-details-container {
+ .no-touchevents ul.products li.product .more-details-container {
      display: none;
  }
  .no-touchevents ul.products li.product:hover .quick-view-link-container  {
