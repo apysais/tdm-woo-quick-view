@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       TDM WOO Quick View
  * Plugin URI:        https://thedigitalmarketers.com.au/
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Add a quick view on woocommerce product.
  * Version:           1.0.0
  * Author:            thedigitalmarketers
  * Author URI:        https://thedigitalmarketers.com.au/

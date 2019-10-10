@@ -17,7 +17,10 @@ if ( ! function_exists( 'wqv_quickview_after_item' ) ) {
     function wqv_quickview_after_item() {
         global $product;
 
-				$see_more = get_field('detail_page', $product->get_id());
+				$see_more = get_post_meta($product->get_id(), 'detail_page', true);
+				if(function_exists('get_field')){
+					$see_more = get_field('detail_page', $product->get_id());
+				}
 
         if($see_more && $see_more == 1) { ?>
           <div class="more-details-container">
