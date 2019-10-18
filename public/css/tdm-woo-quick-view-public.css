@@ -317,7 +317,8 @@
      font-size: 22px;*/
      line-height: 40px;
      position: absolute;
-     left: 20%;
+     /*left: 20%;*/
+     left: 30%;
      top: 60px;
      z-index: 2000;
      background: #ed1423;
@@ -339,6 +340,7 @@
  }
  .no-touchevents ul.products li.product:hover .quick-view-link-container  {
      display: block;
+     padding:5px;
  }
  .no-touchevents ul.products li.product:hover .more-details-container {
      display: block;
